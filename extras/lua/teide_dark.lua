@@ -224,42 +224,42 @@ local highlights = {
   ["@markup.environment.name"] = "Type",
   ["@markup.heading"] = "Title",
   ["@markup.heading.1.markdown"] = {
-    bg = "#2d344e",
+    bg = "#203835",
     bold = true,
     fg = "#38FFA5"
   },
   ["@markup.heading.2.markdown"] = {
-    bg = "#373640",
+    bg = "#23333e",
     bold = true,
     fg = "#5CCEFF"
   },
   ["@markup.heading.3.markdown"] = {
-    bg = "#303940",
+    bg = "#2c2f3e",
     bold = true,
     fg = "#B0A0FF"
   },
   ["@markup.heading.4.markdown"] = {
-    bg = "#233745",
+    bg = "#34352f",
     bold = true,
     fg = "#FFE26C"
   },
   ["@markup.heading.5.markdown"] = {
-    bg = "#33334e",
+    bg = "#332b33",
     bold = true,
     fg = "#F97791"
   },
   ["@markup.heading.6.markdown"] = {
-    bg = "#30304b",
+    bg = "#21383a",
     bold = true,
     fg = "#41FFDC"
   },
   ["@markup.heading.7.markdown"] = {
-    bg = "#3a343f",
+    bg = "#33342f",
     bold = true,
     fg = "#F7D96C"
   },
   ["@markup.heading.8.markdown"] = {
-    bg = "#393043",
+    bg = "#342e2d",
     bold = true,
     fg = "#FF9858"
   },
@@ -300,7 +300,7 @@ local highlights = {
   ["@markup.underline"] = {
     underline = true
   },
-  ["@module"] = "Include",
+  ["@module"] = "Directory",
   ["@module.builtin"] = {
     fg = "#41FFDC"
   },
@@ -585,16 +585,16 @@ local highlights = {
     fg = "#E7EAEE"
   },
   BufferAlternateADDED = {
-    bg = "#3b4261",
-    fg = "#449dab"
+    bg = "#474E5C",
+    fg = "#1BB16E"
   },
   BufferAlternateCHANGED = {
-    bg = "#3b4261",
-    fg = "#6183bb"
+    bg = "#474E5C",
+    fg = "#2AA9DF"
   },
   BufferAlternateDELETED = {
-    bg = "#3b4261",
-    fg = "#914c54"
+    bg = "#474E5C",
+    fg = "#ED3A5E"
   },
   BufferAlternateERROR = {
     bg = "#474E5C",
@@ -633,16 +633,16 @@ local highlights = {
     fg = "#E7EAEE"
   },
   BufferCurrentADDED = {
-    bg = "#24283b",
-    fg = "#449dab"
+    bg = "#1D2228",
+    fg = "#1BB16E"
   },
   BufferCurrentCHANGED = {
-    bg = "#24283b",
-    fg = "#6183bb"
+    bg = "#1D2228",
+    fg = "#2AA9DF"
   },
   BufferCurrentDELETED = {
-    bg = "#24283b",
-    fg = "#914c54"
+    bg = "#1D2228",
+    fg = "#ED3A5E"
   },
   BufferCurrentERROR = {
     bg = "#1D2228",
@@ -681,16 +681,16 @@ local highlights = {
     fg = "#9a9ab1"
   },
   BufferInactiveADDED = {
-    bg = "#262a3e",
-    fg = "#3e8695"
+    bg = "#23282f",
+    fg = "#1b9460"
   },
   BufferInactiveCHANGED = {
-    bg = "#262a3e",
-    fg = "#5571a1"
+    bg = "#23282f",
+    fg = "#278eba"
   },
   BufferInactiveDELETED = {
-    bg = "#262a3e",
-    fg = "#7b454f"
+    bg = "#23282f",
+    fg = "#c33553"
   },
   BufferInactiveERROR = {
     bg = "#23282f",
@@ -744,16 +744,16 @@ local highlights = {
     fg = "#E7EAEE"
   },
   BufferVisibleADDED = {
-    bg = "#1f2335",
-    fg = "#449dab"
+    bg = "#161a1e",
+    fg = "#1BB16E"
   },
   BufferVisibleCHANGED = {
-    bg = "#1f2335",
-    fg = "#6183bb"
+    bg = "#161a1e",
+    fg = "#2AA9DF"
   },
   BufferVisibleDELETED = {
-    bg = "#1f2335",
-    fg = "#914c54"
+    bg = "#161a1e",
+    fg = "#ED3A5E"
   },
   BufferVisibleERROR = {
     bg = "#161a1e",
@@ -2288,18 +2288,6 @@ local highlights = {
   SidekickSignDelete = {
     fg = "#ED3A5E"
   },
-  SidekickDiffAdd = "DiffAdd",
-  SidekickDiffContext = "DiffChange",
-  SidekickDiffDelete = "DiffDelete",
-  SidekickSignAdd = {
-    fg = "#449dab"
-  },
-  SidekickSignChange = {
-    fg = "#6183bb"
-  },
-  SidekickSignDelete = {
-    fg = "#914c54"
-  },
   SignColumn = {
     bg = "#1D2228",
     fg = "#474E5C"
@@ -2331,14 +2319,6 @@ local highlights = {
   },
   SnacksFooterDesc = "SnacksProfilerBadgeInfo",
   SnacksFooterKey = "SnacksProfilerIconInfo",
-  SnacksGhDiffHeader = {
-    bg = "#25384b",
-    fg = "#2ac3de"
-  },
-  SnacksGhLabel = {
-    bold = true,
-    fg = "#2ac3de"
-  },
   SnacksIndent = {
     fg = "#474E5C",
     nocombine = true

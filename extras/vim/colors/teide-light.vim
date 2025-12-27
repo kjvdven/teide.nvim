@@ -34,6 +34,7 @@ hi Boolean guibg=NONE guifg=#00663d
 hi Character guibg=NONE guifg=#00663d
 hi ColorColumn guibg=#aaafb6
 hi Comment gui=italic guibg=NONE guifg=#828fa7
+hi ComplHint guibg=NONE guifg=#a1a6c5
 hi Conceal guibg=NONE guifg=#6c6aa0
 hi Constant guibg=NONE guifg=#376659
 hi CopilotAnnotation guibg=NONE guifg=#a1a6c5

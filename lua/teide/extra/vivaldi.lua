@@ -1,4 +1,4 @@
-local util = require("tokyonight.util")
+local util = require("teide.util")
 
 local M = {}
 
@@ -55,7 +55,7 @@ function M.generate(colors)
    "simpleScrollbar": true,
    "transparencyTabBar": false,
    "transparencyTabs": false,
-   "url": "https://github.com/folke/tokyonight.nvim",
+   "url": "https://github.com/serhez/teide.nvim",
    "version": 1
 }]],
     colors

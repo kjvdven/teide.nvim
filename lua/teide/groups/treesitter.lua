@@ -1,4 +1,5 @@
 local M = {}
+local Util = require("teide.util")
 
 ---@type teide.HighlightsFn
 function M.get(c, opts)

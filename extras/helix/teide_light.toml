@@ -63,6 +63,7 @@ type = { fg = "#7d5a00" }
 "type.enum" = { fg = "#7d5a00" }
 "type.enum.variant" = { fg = "#376659" }
 "ui.background" = { bg = "bg" }
+"ui.bufferline.active" = { bg = "bg_visual", fg = "fg" }
 "ui.cursor" = { bg = "#4c545d", fg = "#d4dbe4" }
 "ui.cursor.match" = { fg = "#bb5e00", modifiers = ["bold"] }
 "ui.linenr" = { fg = "#99a3b8" }

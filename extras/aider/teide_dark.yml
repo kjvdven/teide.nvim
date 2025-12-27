@@ -1,0 +1,16 @@
+assistant-output-color: "#E7EAEE"
+
+# see the aider extra README for more information about setting the `code-theme`
+# https://github.com/serhez/teide.nvim/blob/extras/aider/README.md
+# code-theme: teide-dark
+
+completion-menu-color: "#E7EAEE"
+completion-menu-bg-color: "#13161a"
+completion-menu-current-color: "#E7EAEE"
+completion-menu-current-bg-color: "#2C313A"
+
+tool-error-color: "#F73B61"
+tool-output-color: "#5CCEFF"
+tool-warning-color: "#FFE26C"
+
+user-input-color: "#38FFA5"
