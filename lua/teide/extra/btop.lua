@@ -9,7 +9,7 @@ function M.generate(colors)
   local btop = util.template(
     [[
 # Theme: ${_name}
-# By: Folke Lemaitre
+# By: Folke Lemaitre & Sergio Hernandez
 
 theme[main_bg]="${bg}"
 theme[main_fg]="${fg}"
