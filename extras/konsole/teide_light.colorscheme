@@ -1,8 +1,8 @@
 [Background]
-Color=212,219,228
+Color=201,210,221
 
 [BackgroundIntense]
-Color=182,189,208
+Color=175,184,204
 
 [Foreground]
 Color=76,84,93
@@ -12,7 +12,7 @@ Bold=true
 Color=76,84,93
 
 [Color0]
-Color=#aaafb6
+Color=#a1a8b1
 
 [Color0Intense]
 Color=#a1a6c5
@@ -21,7 +21,7 @@ Color=#a1a6c5
 Color=#f62466
 
 [Color1Intense]
-Color=#ca1e47
+Color=#c81d47
 
 [Color2]
 Color=#00663d
@@ -33,7 +33,7 @@ Color=#006252
 Color=#7d5a00
 
 [Color3Intense]
-Color=#655600
+Color=#5a5200
 
 [Color4]
 Color=#007496
@@ -42,10 +42,10 @@ Color=#007496
 Color=#0074ba
 
 [Color5]
-Color=#8059ff
+Color=#7e58ff
 
 [Color5Intense]
-Color=#be00a2
+Color=#bb00a0
 
 [Color6]
 Color=#006b77

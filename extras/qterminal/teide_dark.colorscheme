@@ -2,10 +2,10 @@
 Description=Teide Dark
 
 [Background]
-Color=29,34,40
+Color=35,41,48
 
 [BackgroundIntense]
-Color=29,34,40
+Color=35,41,48
 
 [Foreground]
 Color=231,234,238
@@ -14,7 +14,7 @@ Color=231,234,238
 Color=231,234,238
 
 [Color0]
-Color=23,27,32
+Color=28,33,38
 
 [Color1]
 Color=249,119,145
@@ -29,7 +29,7 @@ Color=255,203,119
 Color=92,206,255
 
 [Color5]
-Color=176,160,255
+Color=177,162,255
 
 [Color6]
 Color=10,231,255
@@ -41,19 +41,19 @@ Color=169,177,214
 Color=65,72,104
 
 [Color1Intense]
-Color=247,59,97
+Color=247,63,100
 
 [Color2Intense]
 Color=65,255,220
 
 [Color3Intense]
-Color=255,226,108
+Color=255,239,117
 
 [Color4Intense]
 Color=137,190,255
 
 [Color5Intense]
-Color=255,175,235
+Color=255,179,236
 
 [Color6Intense]
 Color=0,251,255

@@ -13,5 +13,5 @@
 
 [urgency_critical]
     background = "#2C313A"
-    foreground = "#F73B61"
-    frame_color = "#F73B61"
+    foreground = "#F73F64"
+    frame_color = "#F73F64"

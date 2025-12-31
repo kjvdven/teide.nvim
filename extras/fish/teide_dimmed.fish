@@ -3,12 +3,12 @@
     set -l selection 373d4f
     set -l comment 586172
     set -l red F97791
-    set -l orange FF9858
-    set -l yellow FFE26C
+    set -l orange FFA064
+    set -l yellow FFEF75
     set -l green 38FFA5
     set -l purple F7D96C
     set -l cyan 0AE7FF
-    set -l pink FFAFEB
+    set -l pink FFB3EC
 
 # Syntax Highlighting Colors
 set -g fish_color_normal $foreground

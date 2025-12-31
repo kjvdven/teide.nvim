@@ -28,7 +28,7 @@
   --color-teide-dimmed-dark5: oklch(from #B9B8D3 l c h);
   --color-teide-dimmed-diff-add: oklch(from #324c52 l c h);
   --color-teide-dimmed-diff-change: oklch(from #232c35 l c h);
-  --color-teide-dimmed-diff-delete: oklch(from #582e3c l c h);
+  --color-teide-dimmed-diff-delete: oklch(from #582f3d l c h);
   --color-teide-dimmed-diff-text: var(--color-teide-dimmed-blue7);
   --color-teide-dimmed-error: var(--color-teide-dimmed-red1);
   --color-teide-dimmed-fg: oklch(from #E7EAEE l c h);
@@ -38,7 +38,7 @@
   --color-teide-dimmed-fg-sidebar: var(--color-teide-dimmed-fg-dark);
   --color-teide-dimmed-git-add: oklch(from #1BB16E l c h);
   --color-teide-dimmed-git-change: oklch(from #2AA9DF l c h);
-  --color-teide-dimmed-git-delete: oklch(from #ED3A5E l c h);
+  --color-teide-dimmed-git-delete: oklch(from #EE4B6B l c h);
   --color-teide-dimmed-git-ignore: var(--color-teide-dimmed-dark3);
   --color-teide-dimmed-green: oklch(from #38FFA5 l c h);
   --color-teide-dimmed-green-bright: oklch(from #41FFDC l c h);
@@ -46,10 +46,10 @@
   --color-teide-dimmed-green2: oklch(from #68C9C9 l c h);
   --color-teide-dimmed-hint: var(--color-teide-dimmed-teal);
   --color-teide-dimmed-info: var(--color-teide-dimmed-blue2);
-  --color-teide-dimmed-magenta: oklch(from #FFAFEB l c h);
-  --color-teide-dimmed-magenta-bright: oklch(from #FFAFEB l c h);
-  --color-teide-dimmed-magenta2: oklch(from #B0A0FF l c h);
-  --color-teide-dimmed-orange: oklch(from #FF9858 l c h);
+  --color-teide-dimmed-magenta: oklch(from #FFB3EC l c h);
+  --color-teide-dimmed-magenta-bright: oklch(from #FFB3EC l c h);
+  --color-teide-dimmed-magenta2: oklch(from #B1A2FF l c h);
+  --color-teide-dimmed-orange: oklch(from #FFA064 l c h);
   --color-teide-dimmed-purple: oklch(from #F7D96C l c h);
   --color-teide-dimmed-rainbow1: var(--color-teide-dimmed-blue);
   --color-teide-dimmed-rainbow2: var(--color-teide-dimmed-yellow);
@@ -60,11 +60,11 @@
   --color-teide-dimmed-rainbow7: var(--color-teide-dimmed-orange);
   --color-teide-dimmed-rainbow8: var(--color-teide-dimmed-red);
   --color-teide-dimmed-red: oklch(from #F97791 l c h);
-  --color-teide-dimmed-red-bright: oklch(from #F73B61 l c h);
-  --color-teide-dimmed-red1: oklch(from #F73B61 l c h);
+  --color-teide-dimmed-red-bright: oklch(from #F73F64 l c h);
+  --color-teide-dimmed-red1: oklch(from #F73F64 l c h);
   --color-teide-dimmed-teal: oklch(from #41FFDC l c h);
   --color-teide-dimmed-todo: var(--color-teide-dimmed-blue);
   --color-teide-dimmed-warning: var(--color-teide-dimmed-yellow);
-  --color-teide-dimmed-yellow: oklch(from #FFE26C l c h);
-  --color-teide-dimmed-yellow-bright: oklch(from #FFE26C l c h);
+  --color-teide-dimmed-yellow: oklch(from #FFEF75 l c h);
+  --color-teide-dimmed-yellow-bright: oklch(from #FFEF75 l c h);
 }

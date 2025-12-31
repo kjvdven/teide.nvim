@@ -9,13 +9,13 @@ hovered         = { bg = "#2C313A" }
 preview_hovered = { bg = "#2C313A" }
 
 # Find
-find_keyword  = { fg = "#1a1f24", bg = "#FF9858", bold = true }
+find_keyword  = { fg = "#1a1f24", bg = "#FFA064", bold = true }
 find_position = { fg = "#0AE7FF", bg = "#213c45", bold = true }
 
 # Marker
 marker_copied   = { fg = "#38FFA5", bg = "#38FFA5" }
 marker_cut      = { fg = "#F97791", bg = "#F97791" }
-marker_marked   = { fg = "#FFAFEB", bg = "#FFAFEB" }
+marker_marked   = { fg = "#FFB3EC", bg = "#FFB3EC" }
 marker_selected = { fg = "#5CCEFF", bg = "#5CCEFF" }
 
 # Count
@@ -36,8 +36,8 @@ inactive = { fg = "#5CCEFF", bg = "#474E5C" }
 normal_main = { fg = "#1c2126", bg = "#5CCEFF", bold = true }
 normal_alt  = { fg = "#5CCEFF", bg = "#474E5C" }
 
-select_main = { fg = "#1c2126", bg = "#FFAFEB", bold = true }
-select_alt  = { fg = "#FFAFEB", bg = "#474E5C" }
+select_main = { fg = "#1c2126", bg = "#FFB3EC", bold = true }
+select_alt  = { fg = "#FFB3EC", bg = "#474E5C" }
 
 unset_main  = { fg = "#1c2126", bg = "#F7D96C", bold = true }
 unset_alt   = { fg = "#F7D96C", bg = "#474E5C" }
@@ -50,11 +50,11 @@ sep_right = { open = "", close = "" }
 # Progress
 progress_label  = { fg = "#E7EAEE", bold = true }
 progress_normal = { fg = "#00648F", bg = "#2C313A" }
-progress_error  = { fg = "#F73B61", bg = "#2C313A" }
+progress_error  = { fg = "#F73F64", bg = "#2C313A" }
 
 # Permissions
 perm_type  = { fg = "#5CCEFF" }
-perm_read  = { fg = "#FFE26C" }
+perm_read  = { fg = "#FFEF75" }
 perm_write = { fg = "#F97791" }
 perm_exec  = { fg = "#38FFA5" }
 perm_sep   = { fg = "#414868" }
@@ -93,7 +93,7 @@ cols            = 3
 mask            = { bg = "#1a1f24" }
 cand            = { fg = "#0AE7FF" }
 rest            = { fg = "#5CCEFF" }
-desc            = { fg = "#FFAFEB" }
+desc            = { fg = "#FFB3EC" }
 separator       = " ➜ "
 separator_style = { fg = "#586172" }
 
@@ -115,8 +115,8 @@ title   = { fg = "#75a0d6" }
 # Notify
 [notify]
 title_info  = { fg = "#0AE7FF" }
-title_warn  = { fg = "#FFE26C" }
-title_error = { fg = "#F73B61" }
+title_warn  = { fg = "#FFEF75" }
+title_error = { fg = "#F73F64" }
 
 icon_error = ""
 icon_warn = ""
@@ -125,7 +125,7 @@ icon_info = ""
 # Help
 [help]
 on      = { fg = "#38FFA5" }
-run     = { fg = "#FFAFEB" }
+run     = { fg = "#FFB3EC" }
 desc    = { fg = "#0AE7FF" }
 hovered = { bg = "#2C313A" }
 footer  = { fg = "#E7EAEE", bg = "#232930" }
@@ -134,10 +134,10 @@ footer  = { fg = "#E7EAEE", bg = "#232930" }
 
 rules = [
 	# Images
-	{ mime = "image/*", fg = "#FFE26C" },
+	{ mime = "image/*", fg = "#FFEF75" },
 
 	# Media
-	{ mime = "{audio,video}/*", fg = "#FFAFEB" },
+	{ mime = "{audio,video}/*", fg = "#FFB3EC" },
 
 	# Archives
 	{ mime = "application/*zip", fg = "#F97791" },

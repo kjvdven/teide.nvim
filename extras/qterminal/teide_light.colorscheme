@@ -2,10 +2,10 @@
 Description=Teide Light
 
 [Background]
-Color=212,219,228
+Color=201,210,221
 
 [BackgroundIntense]
-Color=212,219,228
+Color=201,210,221
 
 [Foreground]
 Color=76,84,93
@@ -14,7 +14,7 @@ Color=76,84,93
 Color=76,84,93
 
 [Color0]
-Color=170,175,182
+Color=161,168,177
 
 [Color1]
 Color=246,36,102
@@ -29,7 +29,7 @@ Color=125,90,0
 Color=0,116,150
 
 [Color5]
-Color=128,89,255
+Color=126,88,255
 
 [Color6]
 Color=0,107,119
@@ -41,19 +41,19 @@ Color=97,114,176
 Color=161,166,197
 
 [Color1Intense]
-Color=202,30,71
+Color=200,29,71
 
 [Color2Intense]
 Color=0,98,82
 
 [Color3Intense]
-Color=101,86,0
+Color=90,82,0
 
 [Color4Intense]
 Color=0,116,186
 
 [Color5Intense]
-Color=190,0,162
+Color=187,0,160
 
 [Color6Intense]
 Color=0,98,99

@@ -1,9 +1,9 @@
 [Scheme]
 Name="teide_dark"
-ColorBackground=#1D2228
+ColorBackground=#232930
 ColorForeground=#E7EAEE
 
-ColorSelectionBackground=#33394a
+ColorSelectionBackground=#373d4f
 ColorSelection=#E7EAEE
 
-ColorPalette=#171b20;#F97791;#38FFA5;#FFE26C;#5CCEFF;#FFAFEB;#0AE7FF;#a9b1d6;#414868;#F97791;#38FFA5;#FFE26C;#5CCEFF;#FFAFEB;#0AE7FF;#E7EAEE
+ColorPalette=#1c2126;#F97791;#38FFA5;#FFEF75;#5CCEFF;#FFB3EC;#0AE7FF;#a9b1d6;#414868;#F97791;#38FFA5;#FFEF75;#5CCEFF;#FFB3EC;#0AE7FF;#E7EAEE

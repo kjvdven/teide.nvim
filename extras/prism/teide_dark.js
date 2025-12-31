@@ -1,7 +1,7 @@
 module.exports =  {
   plain: {
     color: "#E7EAEE",
-    backgroundColor: "#1D2228",
+    backgroundColor: "#232930",
   },
   styles: [
     {
@@ -25,7 +25,7 @@ module.exports =  {
     {
       types: ["punctuation"],
       style: {
-        color: "#FFAFEB",
+        color: "#FFB3EC",
       },
     },
     {
@@ -49,7 +49,7 @@ module.exports =  {
     {
       types: ["constant", "boolean"],
       style: {
-        color: "#FF9858",
+        color: "#FFA064",
       },
     },
     {

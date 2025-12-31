@@ -1,14 +1,14 @@
 # Theme: teide_light
 # By: Folke Lemaitre & Sergio Hernandez
 
-theme[main_bg]="#d4dbe4"
+theme[main_bg]="#c9d2dd"
 theme[main_fg]="#4c545d"
 
 # Title color for boxes
 theme[title]="#4c545d"
 
 # Highlight color for keyboard shortcuts
-theme[hi_fg]="#b55e00"
+theme[hi_fg]="#ae5d00"
 
 # Selected item in processes box
 theme[selected_bg]="#c0c6d3"
@@ -18,56 +18,56 @@ theme[selected_fg]="#006b77"
 theme[proc_misc]="#006b77"
 
 # Cpu box outline color
-theme[cpu_box]="#2a89c2"
+theme[cpu_box]="#2887c1"
 
 # Memory/disks box outline color
-theme[mem_box]="#2a89c2"
+theme[mem_box]="#2887c1"
 
 # Net up/down box outline color
-theme[net_box]="#2a89c2"
+theme[net_box]="#2887c1"
 
 # Processes box outline color
-theme[proc_box]="#2a89c2"
+theme[proc_box]="#2887c1"
 
 # Box divider line and small boxes line color
-theme[div_line]="#2a89c2"
+theme[div_line]="#2887c1"
 
 # Temperature graph colors
 theme[temp_start]="#00663d"
-theme[temp_mid]="#655600"
+theme[temp_mid]="#5a5200"
 theme[temp_end]="#f62466"
 
 # CPU graph colors
 theme[cpu_start]="#00663d"
-theme[cpu_mid]="#655600"
+theme[cpu_mid]="#5a5200"
 theme[cpu_end]="#f62466"
 
 # Mem/Disk free meter
 theme[free_start]="#00663d"
-theme[free_mid]="#655600"
+theme[free_mid]="#5a5200"
 theme[free_end]="#f62466"
 
 # Mem/Disk cached meter
 theme[cached_start]="#00663d"
-theme[cached_mid]="#655600"
+theme[cached_mid]="#5a5200"
 theme[cached_end]="#f62466"
 
 # Mem/Disk available meter
 theme[available_start]="#00663d"
-theme[available_mid]="#655600"
+theme[available_mid]="#5a5200"
 theme[available_end]="#f62466"
 
 # Mem/Disk used meter
 theme[used_start]="#00663d"
-theme[used_mid]="#655600"
+theme[used_mid]="#5a5200"
 theme[used_end]="#f62466"
 
 # Download graph colors
 theme[download_start]="#00663d"
-theme[download_mid]="#655600"
+theme[download_mid]="#5a5200"
 theme[download_end]="#f62466"
 
 # Upload graph colors
 theme[upload_start]="#00663d"
-theme[upload_mid]="#655600"
+theme[upload_mid]="#5a5200"
 theme[upload_end]="#f62466"
