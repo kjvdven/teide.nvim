@@ -28,7 +28,7 @@ return {
   fg_darker = "#919BCA",
   fg_gutter = "#474E5C",
   green = "#38FFA5", --#33FFA3 --#37FFA5 (a bit less contrast) --#64FFBF
-  green1 = "#86EACF", --#97EDD6
+  green1 = "#8FEBD3", --#97EDD6
   green2 = "#68C9C9", --#68C9C9 --#87D4D4
   magenta = "#FFB3EC", --#F0BCF0
   magenta2 = "#B1A2FF", --#AE9EFF
@@ -39,7 +39,7 @@ return {
   red1 = "#F73F64",
   teal = "#41FFDC",
   terminal_black = "#414868",
-  yellow = "#FFEF75", --#FFEF75
+  yellow = "#FAE37B", --#FFEF75
   yellow1 = "#FFCB77",
   git = {
     add = "#1BB16E",
