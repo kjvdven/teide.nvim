@@ -1,8 +1,8 @@
 [Background]
-Color=201,210,221
+Color=212,219,228
 
 [BackgroundIntense]
-Color=175,184,204
+Color=182,189,208
 
 [Foreground]
 Color=76,84,93
@@ -12,7 +12,7 @@ Bold=true
 Color=76,84,93
 
 [Color0]
-Color=#a1a8b1
+Color=#aaafb6
 
 [Color0Intense]
 Color=#a1a6c5
@@ -33,7 +33,7 @@ Color=#006252
 Color=#7d5a00
 
 [Color3Intense]
-Color=#615724
+Color=#615400
 
 [Color4]
 Color=#007496

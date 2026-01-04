@@ -5,12 +5,12 @@ assistant-output-color: "#E7EAEE"
 # code-theme: teide-dark
 
 completion-menu-color: "#E7EAEE"
-completion-menu-bg-color: "#171b1f"
+completion-menu-bg-color: "#13161a"
 completion-menu-current-color: "#E7EAEE"
 completion-menu-current-bg-color: "#2C313A"
 
 tool-error-color: "#F73F64"
 tool-output-color: "#5CCEFF"
-tool-warning-color: "#FAE37B"
+tool-warning-color: "#FFE77A"
 
 user-input-color: "#38FFA5"

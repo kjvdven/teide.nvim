@@ -2,10 +2,10 @@
 Description=Teide Dimmed
 
 [Background]
-Color=35,41,48
+Color=29,34,40
 
 [BackgroundIntense]
-Color=35,41,48
+Color=29,34,40
 
 [Foreground]
 Color=231,234,238
@@ -14,7 +14,7 @@ Color=231,234,238
 Color=231,234,238
 
 [Color0]
-Color=28,33,38
+Color=23,27,32
 
 [Color1]
 Color=249,119,145
@@ -47,7 +47,7 @@ Color=247,63,100
 Color=65,255,220
 
 [Color3Intense]
-Color=250,227,123
+Color=255,231,122
 
 [Color4Intense]
 Color=137,190,255

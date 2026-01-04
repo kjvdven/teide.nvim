@@ -8,10 +8,10 @@ themes {
         bg "#2C313A"
         // Black should match the terminal background color
         // This ensures the top and bottom bars are transparent
-        black "#232930"
+        black "#1D2228"
         red "#F97791"
         green "#38FFA5"
-        yellow "#FAE37B"
+        yellow "#FFE77A"
         blue "#5CCEFF"
         magenta "#FFB3EC"
         cyan "#0AE7FF"

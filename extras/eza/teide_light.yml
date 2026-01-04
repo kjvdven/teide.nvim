@@ -5,8 +5,8 @@ filekinds:
   directory: { foreground: "#007496" }
   symlink: { foreground: "#0074ba" }
   pipe: { foreground: "#a1a6c5" }
-  block_device: { foreground: "#615724" }
-  char_device: { foreground: "#615724" }
+  block_device: { foreground: "#615400" }
+  char_device: { foreground: "#615400" }
   socket: { foreground: "#a1a6c5" }
   special: { foreground: "#695b29" }
   executable: { foreground: "#00663d" }
@@ -89,7 +89,7 @@ file_type:
   source: { foreground: "#bb00a0" }
 
 punctuation: { foreground: "#c0c6d3" }
-date: { foreground: "#615724" }
+date: { foreground: "#615400" }
 inode: { foreground: "#6c6aa0" }
 blocks: { foreground: "#6c6aa0" }
 header: { foreground: "#6172b0" }

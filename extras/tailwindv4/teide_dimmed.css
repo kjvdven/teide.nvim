@@ -1,6 +1,6 @@
 @theme inline {
-  --color-teide-dimmed-bg: oklch(from #232930 l c h);
-  --color-teide-dimmed-bg-dark: oklch(from #1a1f24 l c h);
+  --color-teide-dimmed-bg: oklch(from #1D2228 l c h);
+  --color-teide-dimmed-bg-dark: oklch(from #161a1e l c h);
   --color-teide-dimmed-bg-dark1: oklch(from ${bg_dark1} l c h);
   --color-teide-dimmed-bg-float: var(--color-teide-dimmed-bg-dark);
   --color-teide-dimmed-bg-highlight: oklch(from #2C313A l c h);
@@ -8,8 +8,8 @@
   --color-teide-dimmed-bg-search: var(--color-teide-dimmed-blue0);
   --color-teide-dimmed-bg-sidebar: var(--color-teide-dimmed-bg-dark);
   --color-teide-dimmed-bg-statusline: var(--color-teide-dimmed-bg-dark);
-  --color-teide-dimmed-bg-visual: oklch(from #373d4f l c h);
-  --color-teide-dimmed-black: oklch(from #1c2126 l c h);
+  --color-teide-dimmed-bg-visual: oklch(from #33394a l c h);
+  --color-teide-dimmed-black: oklch(from #171b20 l c h);
   --color-teide-dimmed-black-bright: oklch(from #414868 l c h);
   --color-teide-dimmed-blue: oklch(from #5CCEFF l c h);
   --color-teide-dimmed-blue-bright: oklch(from #89BEFF l c h);
@@ -20,15 +20,15 @@
   --color-teide-dimmed-blue6: oklch(from #AFDBFD l c h);
   --color-teide-dimmed-blue7: oklch(from #254365 l c h);
   --color-teide-dimmed-border: var(--color-teide-dimmed-black);
-  --color-teide-dimmed-border-highlight: oklch(from #75a0d6 l c h);
+  --color-teide-dimmed-border-highlight: oklch(from #739fd4 l c h);
   --color-teide-dimmed-comment: oklch(from #586172 l c h);
   --color-teide-dimmed-cyan: oklch(from #0AE7FF l c h);
   --color-teide-dimmed-cyan-bright: oklch(from #00FBFF l c h);
   --color-teide-dimmed-dark3: oklch(from #545c7e l c h);
   --color-teide-dimmed-dark5: oklch(from #B9B8D3 l c h);
-  --color-teide-dimmed-diff-add: oklch(from #324c52 l c h);
-  --color-teide-dimmed-diff-change: oklch(from #232c35 l c h);
-  --color-teide-dimmed-diff-delete: oklch(from #582f3d l c h);
+  --color-teide-dimmed-diff-add: oklch(from #2e474b l c h);
+  --color-teide-dimmed-diff-change: oklch(from #1e252e l c h);
+  --color-teide-dimmed-diff-delete: oklch(from #542937 l c h);
   --color-teide-dimmed-diff-text: var(--color-teide-dimmed-blue7);
   --color-teide-dimmed-error: var(--color-teide-dimmed-red1);
   --color-teide-dimmed-fg: oklch(from #E7EAEE l c h);
@@ -65,6 +65,6 @@
   --color-teide-dimmed-teal: oklch(from #41FFDC l c h);
   --color-teide-dimmed-todo: var(--color-teide-dimmed-blue);
   --color-teide-dimmed-warning: var(--color-teide-dimmed-yellow);
-  --color-teide-dimmed-yellow: oklch(from #FAE37B l c h);
-  --color-teide-dimmed-yellow-bright: oklch(from #FAE37B l c h);
+  --color-teide-dimmed-yellow: oklch(from #FFE77A l c h);
+  --color-teide-dimmed-yellow-bright: oklch(from #FFE77A l c h);
 }

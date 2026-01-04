@@ -1,6 +1,6 @@
 @theme inline {
-  --color-teide-light-bg: oklch(from #c9d2dd l c h);
-  --color-teide-light-bg-dark: oklch(from #d8dfe7 l c h);
+  --color-teide-light-bg: oklch(from #d4dbe4 l c h);
+  --color-teide-light-bg-dark: oklch(from #e1e6eb l c h);
   --color-teide-light-bg-dark1: oklch(from ${bg_dark1} l c h);
   --color-teide-light-bg-float: var(--color-teide-light-bg-dark);
   --color-teide-light-bg-highlight: oklch(from #c0c6d3 l c h);
@@ -8,8 +8,8 @@
   --color-teide-light-bg-search: var(--color-teide-light-blue0);
   --color-teide-light-bg-sidebar: var(--color-teide-light-bg-dark);
   --color-teide-light-bg-statusline: var(--color-teide-light-bg-dark);
-  --color-teide-light-bg-visual: oklch(from #afb8cc l c h);
-  --color-teide-light-black: oklch(from #a1a8b1 l c h);
+  --color-teide-light-bg-visual: oklch(from #b6bdd0 l c h);
+  --color-teide-light-black: oklch(from #aaafb6 l c h);
   --color-teide-light-black-bright: oklch(from #a1a6c5 l c h);
   --color-teide-light-blue: oklch(from #007496 l c h);
   --color-teide-light-blue-bright: oklch(from #0074ba l c h);
@@ -20,15 +20,15 @@
   --color-teide-light-blue6: oklch(from #13658a l c h);
   --color-teide-light-blue7: oklch(from #8db4ea l c h);
   --color-teide-light-border: var(--color-teide-light-black);
-  --color-teide-light-border-highlight: oklch(from #2887c1 l c h);
+  --color-teide-light-border-highlight: oklch(from #2a89c2 l c h);
   --color-teide-light-comment: oklch(from #828fa7 l c h);
   --color-teide-light-cyan: oklch(from #006b77 l c h);
   --color-teide-light-cyan-bright: oklch(from #006263 l c h);
   --color-teide-light-dark3: oklch(from #8990b3 l c h);
   --color-teide-light-dark5: oklch(from #6c6aa0 l c h);
-  --color-teide-light-diff-add: oklch(from #aabfc7 l c h);
-  --color-teide-light-diff-change: oklch(from #c3cfde l c h);
-  --color-teide-light-diff-delete: oklch(from #c9a5b8 l c h);
+  --color-teide-light-diff-add: oklch(from #b3c6cd l c h);
+  --color-teide-light-diff-change: oklch(from #cdd7e5 l c h);
+  --color-teide-light-diff-delete: oklch(from #d1acbd l c h);
   --color-teide-light-diff-text: var(--color-teide-light-blue7);
   --color-teide-light-error: var(--color-teide-light-red1);
   --color-teide-light-fg: oklch(from #4c545d l c h);
@@ -65,6 +65,6 @@
   --color-teide-light-teal: oklch(from #006252 l c h);
   --color-teide-light-todo: var(--color-teide-light-blue);
   --color-teide-light-warning: var(--color-teide-light-yellow);
-  --color-teide-light-yellow: oklch(from #615724 l c h);
-  --color-teide-light-yellow-bright: oklch(from #615724 l c h);
+  --color-teide-light-yellow: oklch(from #615400 l c h);
+  --color-teide-light-yellow-bright: oklch(from #615400 l c h);
 }

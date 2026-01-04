@@ -17,7 +17,7 @@
 				<key>activeGuide</key>
 				<string>#363b54</string>
 				<key>background</key>
-				<string>#232930</string>
+				<string>#1D2228</string>
 				<key>caret</key>
 				<string>#DBC08A</string>
 				<key>findHighlight</key>
@@ -139,7 +139,7 @@
 				<key>foreground</key>
 				<string>#0AE7FF</string>
 				<key>background</key>
-				<string>#213c45</string>
+				<string>#1b363e</string>
 			</dict>
 		</dict>
 		<dict>
@@ -150,9 +150,9 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#FAE37B</string>
+				<string>#FFE77A</string>
 				<key>background</key>
-				<string>#393c38</string>
+				<string>#343630</string>
 			</dict>
 		</dict>
 		<dict>
@@ -165,7 +165,7 @@
 				<key>foreground</key>
 				<string>#F73F64</string>
 				<key>background</key>
-				<string>#382b35</string>
+				<string>#33252e</string>
 			</dict>
 		</dict>
 		<dict>
@@ -365,7 +365,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#FAE37B</string>
+				<string>#FFE77A</string>
 			</dict>
 		</dict>
 		<dict>
@@ -486,7 +486,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#FAE37B</string>
+				<string>#FFE77A</string>
 			</dict>
 		</dict>
 		<dict>
@@ -620,7 +620,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#FAE37B</string>
+				<string>#FFE77A</string>
 			</dict>
 		</dict>
 		<dict>
@@ -642,7 +642,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#FAE37B</string>
+				<string>#FFE77A</string>
 			</dict>
 		</dict>
 		<dict>
@@ -862,7 +862,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#FAE37B</string>
+				<string>#FFE77A</string>
 			</dict>
 		</dict>
 		<dict>
@@ -972,7 +972,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#FAE37B</string>
+				<string>#FFE77A</string>
 			</dict>
 		</dict>
 		<dict>

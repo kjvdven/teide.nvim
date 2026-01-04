@@ -1,7 +1,7 @@
 module.exports =  {
   plain: {
     color: "#4c545d",
-    backgroundColor: "#c9d2dd",
+    backgroundColor: "#d4dbe4",
   },
   styles: [
     {

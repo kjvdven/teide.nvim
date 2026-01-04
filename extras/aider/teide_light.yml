@@ -5,12 +5,12 @@ assistant-output-color: "#4c545d"
 # code-theme: teide-light
 
 completion-menu-color: "#4c545d"
-completion-menu-bg-color: "#dfe4ea"
+completion-menu-bg-color: "#e8ebef"
 completion-menu-current-color: "#4c545d"
 completion-menu-current-bg-color: "#c0c6d3"
 
 tool-error-color: "#c81d47"
 tool-output-color: "#007496"
-tool-warning-color: "#615724"
+tool-warning-color: "#615400"
 
 user-input-color: "#00663d"

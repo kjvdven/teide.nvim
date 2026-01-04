@@ -2,9 +2,9 @@
   "name": "Teide Dark",
   "version": 1,
   "shared": {
-    "backgroundColor": "#232930",
+    "backgroundColor": "#1D2228",
     "colorPaletteOverrides": [
-      "#1c2126",
+      "#171b20",
       "#F97791",
       "#38FFA5",
       "#FFCB77",
@@ -15,7 +15,7 @@
       "#414868",
       "#F73F64",
       "#41FFDC",
-      "#FAE37B",
+      "#FFE77A",
       "#89BEFF",
       "#FFB3EC",
       "#00FBFF",
