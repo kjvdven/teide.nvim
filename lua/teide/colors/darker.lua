@@ -39,7 +39,7 @@ return {
   red1 = "#F73F64",
   teal = "#41FFDC",
   terminal_black = "#414868",
-  yellow = "#FAE37B", --#FFEF75
+  yellow = "#FFE77A", --#FFEF75
   yellow1 = "#FFCB77",
   git = {
     add = "#1BB16E",
