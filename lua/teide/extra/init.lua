@@ -13,7 +13,7 @@ M.extras = {
   base24           = { ext = "yaml", url = "https://github.com/tinted-theming/schemes", label = "Base24" },
   btop             = { ext = "theme", url = "https://github.com/aristocratos/btop", label = "Btop++" },
   delta            = { ext = "gitconfig", url = "https://github.com/dandavison/delta", label = "Delta" },
-  discord          = { ext = "css", url ="https://betterdiscord.app/", label = "(Better-)Discord"},
+  discord          = { ext = "css", url = "https://betterdiscord.app/", label = "(Better-)Discord" },
   dunst            = { ext = "dunstrc", url = "https://dunst-project.org/", label = "Dunst" },
   eza              = { ext = "yml", url = "https://eza.rocks", label = "eza" },
   fish             = { ext = "fish", url = "https://fishshell.com/docs/current/index.html", label = "Fish" },
@@ -26,7 +26,7 @@ M.extras = {
   gnome_terminal   = { ext = "dconf", url = "https://gitlab.gnome.org/GNOME/gnome-terminal", label = "GNOME Terminal" },
   helix            = { ext = "toml", url = "https://helix-editor.com/", label = "Helix" },
   iterm            = { ext = "itermcolors", url = "https://iterm2.com/", label = "iTerm" },
-  ish              = { ext = "json", url = "https://ish.app", label = "iSH "},
+  ish              = { ext = "json", url = "https://ish.app", label = "iSH " },
   kitty            = { ext = "conf", url = "https://sw.kovidgoyal.net/kitty/conf.html", label = "Kitty" },
   konsole          = { ext = "colorscheme", url = "https://konsole.kde.org/", label = "Konsole" },
   lazygit          = { ext = "yml", url = "https://github.com/jesseduffield/lazygit", label = "Lazygit" },
@@ -78,14 +78,13 @@ function M.setup()
     local plugin = require("teide.extra." .. extra)
     for style, style_name in pairs(styles) do
       local colors, groups, opts = teide.load({ style = style, plugins = { all = true } })
-      print("Style: " .. style .. " BG: " .. colors.bg)
       local fname = extra
-        .. (info.subdir and "/" .. info.subdir .. "/" or "")
-        .. "/teide"
-        .. (info.sep or "_")
-        .. style
-        .. "."
-        .. info.ext
+          .. (info.subdir and "/" .. info.subdir .. "/" or "")
+          .. "/teide"
+          .. (info.sep or "_")
+          .. style
+          .. "."
+          .. info.ext
       fname = string.gsub(fname, "%.$", "") -- remove trailing dot when no extension
       colors["_upstream_url"] = "https://github.com/serhez/teide.nvim/raw/main/extras/" .. fname
       colors["_style_name"] = "Teide" .. style_name
@@ -96,6 +95,7 @@ function M.setup()
     end
   end
 end
+
 M.setup()
 
 return M

@@ -14,23 +14,17 @@ function M.generate(colors)
   local tab_active_bg = colors.bg
   local tab_inactive_bg = colors.bg_dark
 
-  -- In light mode, we invert the hierarchy to match standard light theme expectations
-  -- (White editor, grey sidebar)
   if appearance == "light" then
-    editor_bg = colors.bg_darker -- The lightest color (white-ish)
-    gutter_bg = colors.bg_darker
-    toolbar_bg = colors.bg_darker
-    tab_active_bg = colors.bg_darker
-    
-    panel_bg = colors.bg_dark -- Slightly darker (grey-ish)
-    tab_inactive_bg = colors.bg_dark
-    
-    terminal_bg = colors.bg -- Darkest of the light set (grey)
-  else
-    -- Standard Dark Mode hierarchy
-    -- editor_bg = colors.bg (already set)
-    -- panel_bg = colors.bg_sidebar (already set)
-    -- terminal_bg = colors.bg (already set)
+    -- We use the base 'bg' (which is grey-ish in light mode) instead of 'bg_darker' (white)
+    editor_bg = colors.bg
+    gutter_bg = colors.bg
+    toolbar_bg = colors.bg
+    tab_active_bg = colors.bg
+
+    -- Make panel/sidebar slightly darker than the editor for contrast
+    panel_bg = util.darken(colors.bg, 0.96)
+    tab_inactive_bg = util.darken(colors.bg, 0.96)
+    terminal_bg = util.darken(colors.bg, 0.96)
   end
 
   local theme = {
@@ -43,34 +37,34 @@ function M.generate(colors)
         style = {
           background = editor_bg,
           foreground = colors.fg,
-          
+
           ["border"] = colors.border,
           ["border.variant"] = colors.border_highlight,
           ["border.focused"] = colors.blue,
           ["border.selected"] = colors.blue,
           ["border.disabled"] = colors.fg_gutter,
-          
+
           ["elevated_surface.background"] = panel_bg,
           ["surface.background"] = panel_bg,
           ["panel.background"] = panel_bg,
-          
+
           ["element.background"] = colors.bg_visual,
           ["element.hover"] = colors.bg_highlight,
           ["element.active"] = colors.blue0,
           ["element.selected"] = colors.bg_visual,
           ["element.disabled"] = colors.bg_dark,
-          
+
           ["text"] = colors.fg,
           ["text.muted"] = colors.comment,
           ["text.placeholder"] = colors.fg_gutter,
           ["text.disabled"] = colors.fg_gutter,
           ["text.accent"] = colors.blue,
-          
+
           ["icon"] = colors.fg,
           ["icon.muted"] = colors.fg_dark,
           ["icon.disabled"] = colors.fg_gutter,
           ["icon.accent"] = colors.blue,
-          
+
           ["status_bar.background"] = colors.bg_statusline,
           ["title_bar.background"] = panel_bg,
           ["title_bar.inactive_background"] = terminal_bg,
@@ -78,9 +72,9 @@ function M.generate(colors)
           ["tab_bar.background"] = panel_bg,
           ["tab.inactive_background"] = tab_inactive_bg,
           ["tab.active_background"] = tab_active_bg,
-          
+
           ["search.match_background"] = colors.bg_search,
-          
+
           ["editor.foreground"] = colors.fg,
           ["editor.background"] = editor_bg,
           ["editor.gutter.background"] = gutter_bg,
@@ -90,7 +84,7 @@ function M.generate(colors)
           ["editor.line_number"] = colors.fg_gutter,
           ["editor.active_line_number"] = colors.fg,
           ["editor.invisible"] = colors.fg_gutter,
-          
+
           ["terminal.background"] = terminal_bg,
           ["terminal.foreground"] = colors.fg,
           ["terminal.ansi.black"] = colors.terminal.black,
@@ -119,7 +113,7 @@ function M.generate(colors)
           ["warning"] = colors.warning,
           ["info"] = colors.info,
           ["hint"] = colors.hint,
-          
+
           -- Cursor / Selection
           players = {
             {
