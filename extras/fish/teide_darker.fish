@@ -1,6 +1,6 @@
     # Teide Color Palette
     set -l foreground E7EAEE
-    set -l selection 33394a
+    set -l selection 2f3546
     set -l comment 586172
     set -l red F97791
     set -l orange FFA064

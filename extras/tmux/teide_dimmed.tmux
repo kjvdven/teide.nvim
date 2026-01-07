@@ -1,6 +1,6 @@
-color_bg="#1D2228"
+color_bg="#232930"
 color_fg="#E7EAEE"
-color_text="#1D2228"
+color_text="#232930"
 color_comment="#586172"
 color_date="#5CCEFF"
 color_time="#FFE77A"

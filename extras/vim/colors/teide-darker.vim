@@ -3,8 +3,8 @@ let g:colors_name = "teide-darker"
   
 hi ALEErrorSign guibg=NONE guifg=#F73F64
 hi ALEWarningSign guibg=NONE guifg=#FFE77A
-hi BlinkCmpDoc guibg=#13161a guifg=#E7EAEE
-hi BlinkCmpDocBorder guibg=#13161a guifg=#739fd4
+hi BlinkCmpDoc guibg=#0f1215 guifg=#E7EAEE
+hi BlinkCmpDocBorder guibg=#0f1215 guifg=#729dd2
 hi BlinkCmpGhostText guibg=NONE guifg=#414868
 hi BlinkCmpKindCodeium guibg=NONE guifg=#41FFDC
 hi BlinkCmpKindCopilot guibg=NONE guifg=#41FFDC
@@ -14,10 +14,10 @@ hi BlinkCmpKindTabNine guibg=NONE guifg=#41FFDC
 hi BlinkCmpLabel guibg=NONE guifg=#E7EAEE
 hi BlinkCmpLabelDeprecated gui=strikethrough guibg=NONE guifg=#474E5C
 hi BlinkCmpLabelMatch guibg=NONE guifg=#89BEFF
-hi BlinkCmpMenu guibg=#13161a guifg=#E7EAEE
-hi BlinkCmpMenuBorder guibg=#13161a guifg=#739fd4
-hi BlinkCmpSignatureHelp guibg=#13161a guifg=#E7EAEE
-hi BlinkCmpSignatureHelpBorder guibg=#13161a guifg=#739fd4
+hi BlinkCmpMenu guibg=#0f1215 guifg=#E7EAEE
+hi BlinkCmpMenuBorder guibg=#0f1215 guifg=#729dd2
+hi BlinkCmpSignatureHelp guibg=#0f1215 guifg=#E7EAEE
+hi BlinkCmpSignatureHelpBorder guibg=#0f1215 guifg=#729dd2
 hi BlinkPairsBlue guibg=NONE guifg=#B1A2FF
 hi BlinkPairsDepth1 guibg=NONE guifg=#8E98A8
 hi BlinkPairsDepth2 guibg=NONE guifg=#89BEFF
@@ -32,16 +32,16 @@ hi BlinkPairsUnmatched gui=bold,undercurl guibg=NONE guifg=#F97791
 hi Bold gui=bold guibg=NONE guifg=#E7EAEE
 hi Boolean guibg=NONE guifg=#38FFA5
 hi Character guibg=NONE guifg=#38FFA5
-hi ColorColumn guibg=#171b20
+hi ColorColumn guibg=#12161a
 hi Comment gui=italic guibg=NONE guifg=#586172
 hi ComplHint guibg=NONE guifg=#414868
 hi Conceal guibg=NONE guifg=#B9B8D3
 hi Constant guibg=NONE guifg=#8FEBD3
 hi CopilotAnnotation guibg=NONE guifg=#414868
 hi CopilotSuggestion guibg=NONE guifg=#414868
-hi Cursor guibg=#E7EAEE guifg=#1D2228
+hi Cursor guibg=#E7EAEE guifg=#171B20
 hi CursorColumn guibg=#2C313A
-hi CursorIM guibg=#E7EAEE guifg=#1D2228
+hi CursorIM guibg=#E7EAEE guifg=#171B20
 hi CursorLine guibg=#2C313A
 hi CursorLineNr gui=bold guibg=NONE guifg=#FF924E
 hi Debug guibg=NONE guifg=#FFA064
@@ -53,33 +53,33 @@ hi DiagnosticUnderlineHint gui=undercurl guibg=NONE guisp=#41FFDC
 hi DiagnosticUnderlineInfo gui=undercurl guibg=NONE guisp=#0AE7FF
 hi DiagnosticUnderlineWarn gui=undercurl guibg=NONE guisp=#FFE77A
 hi DiagnosticUnnecessary guibg=NONE guifg=#414868
-hi DiagnosticVirtualTextError guibg=#33252e guifg=#F73F64
-hi DiagnosticVirtualTextHint guibg=#21383a guifg=#41FFDC
-hi DiagnosticVirtualTextInfo guibg=#1b363e guifg=#0AE7FF
-hi DiagnosticVirtualTextWarn guibg=#343630 guifg=#FFE77A
+hi DiagnosticVirtualTextError guibg=#2d1f27 guifg=#F73F64
+hi DiagnosticVirtualTextHint guibg=#1b3233 guifg=#41FFDC
+hi DiagnosticVirtualTextInfo guibg=#162f36 guifg=#0AE7FF
+hi DiagnosticVirtualTextWarn guibg=#2e2f29 guifg=#FFE77A
 hi DiagnosticWarn guibg=NONE guifg=#FFE77A
-hi DiffAdd guibg=#2e474b
-hi DiffChange guibg=#1e252e
-hi DiffDelete guibg=#542937
+hi DiffAdd guibg=#294145
+hi DiffChange guibg=#181f27
+hi DiffDelete guibg=#4f2431
 hi DiffText guibg=#254365
 hi Directory guibg=NONE guifg=#5CCEFF
-hi EndOfBuffer guibg=NONE guifg=#1D2228
+hi EndOfBuffer guibg=NONE guifg=#171B20
 hi Error guibg=NONE guifg=#F73F64
 hi ErrorMsg guibg=NONE guifg=#F73F64
-hi FloatBorder guibg=#13161a guifg=#474E5C
-hi FloatTitle guibg=#13161a guifg=#739fd4
-hi FoldColumn guibg=#1D2228 guifg=#586172
-hi Folded guibg=#282d35 guifg=#5CCEFF
+hi FloatBorder guibg=#0f1215 guifg=#474E5C
+hi FloatTitle guibg=#0f1215 guifg=#729dd2
+hi FoldColumn guibg=#171B20 guifg=#586172
+hi Folded guibg=#262a32 guifg=#5CCEFF
 hi Foo guibg=#FFCB77 guifg=#E7EAEE
 hi Function guibg=NONE guifg=#5CCEFF
-hi FzfLuaBorder guibg=#13161a guifg=#739fd4
+hi FzfLuaBorder guibg=#0f1215 guifg=#729dd2
 hi FzfLuaDirPart guibg=NONE guifg=#a9b1d6
 hi FzfLuaFzfNormal guibg=NONE guifg=#E7EAEE
 hi FzfLuaFzfPointer guibg=NONE guifg=#B1A2FF
-hi FzfLuaFzfSeparator guibg=#13161a guifg=#FFA064
-hi FzfLuaNormal guibg=#13161a guifg=#E7EAEE
-hi FzfLuaPreviewTitle guibg=#13161a guifg=#739fd4
-hi FzfLuaTitle guibg=#13161a guifg=#FFA064
+hi FzfLuaFzfSeparator guibg=#0f1215 guifg=#FFA064
+hi FzfLuaNormal guibg=#0f1215 guifg=#E7EAEE
+hi FzfLuaPreviewTitle guibg=#0f1215 guifg=#729dd2
+hi FzfLuaTitle guibg=#0f1215 guifg=#FFA064
 hi GitGutterAdd guibg=NONE guifg=#1BB16E
 hi GitGutterAddLineNr guibg=NONE guifg=#1BB16E
 hi GitGutterChange guibg=NONE guifg=#2AA9DF
@@ -94,38 +94,38 @@ hi GlyphPalette6 guibg=NONE guifg=#8FEBD3
 hi GlyphPalette7 guibg=NONE guifg=#E7EAEE
 hi GlyphPalette9 guibg=NONE guifg=#F97791
 hi Identifier guibg=NONE guifg=#F97791
-hi IlluminatedWordRead guibg=#3a414c
-hi IlluminatedWordText guibg=#3a414c
-hi IlluminatedWordWrite guibg=#3a414c
-hi IncSearch guibg=#FF924E guifg=#171b20
+hi IlluminatedWordRead guibg=#393f4a
+hi IlluminatedWordText guibg=#393f4a
+hi IlluminatedWordWrite guibg=#393f4a
+hi IncSearch guibg=#FF924E guifg=#12161a
 hi Italic gui=italic guibg=NONE guifg=#E7EAEE
 hi Keyword gui=italic guibg=NONE guifg=#B1A2FF
 hi LineNr guibg=NONE guifg=#474E5C
 hi LineNrAbove guibg=NONE guifg=#474E5C
 hi LineNrBelow guibg=NONE guifg=#474E5C
 hi LspCodeLens guibg=NONE guifg=#586172
-hi LspInfoBorder guibg=#13161a guifg=#739fd4
-hi LspInlayHint guibg=#21383a guifg=#545c7e
+hi LspInfoBorder guibg=#0f1215 guifg=#729dd2
+hi LspInlayHint guibg=#1b3233 guifg=#545c7e
 hi LspReferenceRead guibg=#474E5C
 hi LspReferenceText guibg=#474E5C
 hi LspReferenceWrite guibg=#474E5C
-hi LspSignatureActiveParameter gui=bold guibg=#262b36
+hi LspSignatureActiveParameter gui=bold guibg=#21252f
 hi MatchParen gui=bold guibg=NONE guifg=#FF924E
 hi MiniAnimateCursor gui=nocombine guibg=NONE
 hi MiniCompletionActiveParameter gui=underline guibg=NONE
 hi MiniCursorword guibg=#474E5C
 hi MiniCursorwordCurrent guibg=#474E5C
-hi MiniDepsTitleError guibg=#EE4B6B guifg=#171b20
-hi MiniDepsTitleUpdate guibg=#1BB16E guifg=#171b20
+hi MiniDepsTitleError guibg=#EE4B6B guifg=#12161a
+hi MiniDepsTitleUpdate guibg=#1BB16E guifg=#12161a
 hi MiniDiffSignAdd guibg=NONE guifg=#1BB16E
 hi MiniDiffSignChange guibg=NONE guifg=#2AA9DF
 hi MiniDiffSignDelete guibg=NONE guifg=#EE4B6B
 hi MiniFilesFile guibg=NONE guifg=#E7EAEE
-hi MiniFilesTitleFocused gui=bold guibg=#13161a guifg=#739fd4
-hi MiniHipatternsFixme gui=bold guibg=#F73F64 guifg=#171b20
-hi MiniHipatternsHack gui=bold guibg=#FFE77A guifg=#171b20
-hi MiniHipatternsNote gui=bold guibg=#41FFDC guifg=#171b20
-hi MiniHipatternsTodo gui=bold guibg=#0AE7FF guifg=#171b20
+hi MiniFilesTitleFocused gui=bold guibg=#0f1215 guifg=#729dd2
+hi MiniHipatternsFixme gui=bold guibg=#F73F64 guifg=#12161a
+hi MiniHipatternsHack gui=bold guibg=#FFE77A guifg=#12161a
+hi MiniHipatternsNote gui=bold guibg=#41FFDC guifg=#12161a
+hi MiniHipatternsTodo gui=bold guibg=#0AE7FF guifg=#12161a
 hi MiniIconsAzure guibg=NONE guifg=#0AE7FF
 hi MiniIconsBlue guibg=NONE guifg=#5CCEFF
 hi MiniIconsCyan guibg=NONE guifg=#41FFDC
@@ -139,38 +139,38 @@ hi MiniIndentscopePrefix gui=nocombine guibg=NONE
 hi MiniIndentscopeSymbol gui=nocombine guibg=NONE guifg=#89BEFF
 hi MiniJump guibg=#B1A2FF guifg=#ffffff
 hi MiniJump2dSpot gui=bold,nocombine guibg=NONE guifg=#B1A2FF
-hi MiniJump2dSpotAhead gui=nocombine guibg=#161a1e guifg=#41FFDC
+hi MiniJump2dSpotAhead gui=nocombine guibg=#111418 guifg=#41FFDC
 hi MiniJump2dSpotUnique gui=bold,nocombine guibg=NONE guifg=#FFA064
-hi MiniPickBorderText guibg=#13161a guifg=#41FFDC
-hi MiniPickPrompt guibg=#13161a guifg=#0AE7FF
+hi MiniPickBorderText guibg=#0f1215 guifg=#41FFDC
+hi MiniPickPrompt guibg=#0f1215 guifg=#0AE7FF
 hi MiniStarterCurrent gui=nocombine guibg=NONE
 hi MiniStarterFooter gui=italic guibg=NONE guifg=#FFE77A
 hi MiniStarterHeader guibg=NONE guifg=#5CCEFF
 hi MiniStarterInactive gui=italic guibg=NONE guifg=#586172
-hi MiniStarterItem guibg=#1D2228 guifg=#E7EAEE
-hi MiniStarterItemBullet guibg=NONE guifg=#739fd4
+hi MiniStarterItem guibg=#171B20 guifg=#E7EAEE
+hi MiniStarterItemBullet guibg=NONE guifg=#729dd2
 hi MiniStarterItemPrefix guibg=NONE guifg=#FFE77A
 hi MiniStarterQuery guibg=NONE guifg=#0AE7FF
 hi MiniStarterSection guibg=NONE guifg=#89BEFF
 hi MiniStatuslineDevinfo guibg=#474E5C guifg=#a9b1d6
 hi MiniStatuslineFileinfo guibg=#474E5C guifg=#a9b1d6
 hi MiniStatuslineFilename guibg=#2C313A guifg=#a9b1d6
-hi MiniStatuslineInactive guibg=#161a1e guifg=#5CCEFF
-hi MiniStatuslineModeCommand gui=bold guibg=#FFE77A guifg=#171b20
-hi MiniStatuslineModeInsert gui=bold guibg=#38FFA5 guifg=#171b20
-hi MiniStatuslineModeNormal gui=bold guibg=#5CCEFF guifg=#171b20
-hi MiniStatuslineModeOther gui=bold guibg=#41FFDC guifg=#171b20
-hi MiniStatuslineModeReplace gui=bold guibg=#F97791 guifg=#171b20
-hi MiniStatuslineModeVisual gui=bold guibg=#FFB3EC guifg=#171b20
-hi MiniSurround guibg=#FFA064 guifg=#171b20
+hi MiniStatuslineInactive guibg=#111418 guifg=#5CCEFF
+hi MiniStatuslineModeCommand gui=bold guibg=#FFE77A guifg=#12161a
+hi MiniStatuslineModeInsert gui=bold guibg=#38FFA5 guifg=#12161a
+hi MiniStatuslineModeNormal gui=bold guibg=#5CCEFF guifg=#12161a
+hi MiniStatuslineModeOther gui=bold guibg=#41FFDC guifg=#12161a
+hi MiniStatuslineModeReplace gui=bold guibg=#F97791 guifg=#12161a
+hi MiniStatuslineModeVisual gui=bold guibg=#FFB3EC guifg=#12161a
+hi MiniSurround guibg=#FFA064 guifg=#12161a
 hi MiniTablineCurrent guibg=#474E5C guifg=#E7EAEE
-hi MiniTablineFill guibg=#171b20
-hi MiniTablineHidden guibg=#161a1e guifg=#B9B8D3
+hi MiniTablineFill guibg=#12161a
+hi MiniTablineHidden guibg=#111418 guifg=#B9B8D3
 hi MiniTablineModifiedCurrent guibg=#474E5C guifg=#FFE77A
-hi MiniTablineModifiedHidden guibg=#161a1e guifg=#bbac61
-hi MiniTablineModifiedVisible guibg=#161a1e guifg=#FFE77A
+hi MiniTablineModifiedHidden guibg=#111418 guifg=#b9aa5f
+hi MiniTablineModifiedVisible guibg=#111418 guifg=#FFE77A
 hi MiniTablineTabpagesection guibg=#474E5C guifg=NONE
-hi MiniTablineVisible guibg=#161a1e guifg=#E7EAEE
+hi MiniTablineVisible guibg=#111418 guifg=#E7EAEE
 hi MiniTestEmphasis gui=bold guibg=NONE
 hi MiniTestFail gui=bold guibg=NONE guifg=#F97791
 hi MiniTestPass gui=bold guibg=NONE guifg=#38FFA5
@@ -179,9 +179,9 @@ hi ModeMsg gui=bold guibg=NONE guifg=#a9b1d6
 hi MoreMsg guibg=NONE guifg=#5CCEFF
 hi MsgArea guibg=NONE guifg=#a9b1d6
 hi NeogitBranch guibg=NONE guifg=#FFB3EC
-hi NeogitDiffAddHighlight guibg=#2e474b guifg=#1BB16E
-hi NeogitDiffContextHighlight guibg=#323842 guifg=#a9b1d6
-hi NeogitDiffDeleteHighlight guibg=#542937 guifg=#EE4B6B
+hi NeogitDiffAddHighlight guibg=#294145 guifg=#1BB16E
+hi NeogitDiffContextHighlight guibg=#2f353e guifg=#a9b1d6
+hi NeogitDiffDeleteHighlight guibg=#4f2431 guifg=#EE4B6B
 hi NeogitHunkHeader guibg=#2C313A guifg=#E7EAEE
 hi NeogitHunkHeaderHighlight guibg=#474E5C guifg=#5CCEFF
 hi NeogitRemote guibg=NONE guifg=#F7D96C
@@ -202,26 +202,26 @@ hi NeotestTarget guibg=NONE guifg=#5CCEFF
 hi NeotestTest guibg=NONE guifg=#a9b1d6
 hi NeotestWinSelect guibg=NONE guifg=#5CCEFF
 hi NonText guibg=NONE guifg=#545c7e
-hi Normal guibg=#1D2228 guifg=#E7EAEE
-hi NormalFloat guibg=#13161a guifg=#E7EAEE
-hi NormalNC guibg=#1D2228 guifg=#E7EAEE
-hi NormalSB guibg=#161a1e guifg=#a9b1d6
+hi Normal guibg=#171B20 guifg=#E7EAEE
+hi NormalFloat guibg=#0f1215 guifg=#E7EAEE
+hi NormalNC guibg=#171B20 guifg=#E7EAEE
+hi NormalSB guibg=#111418 guifg=#a9b1d6
 hi Number guibg=NONE guifg=#38FFA5
 hi Operator guibg=NONE guifg=#FFB3EC
-hi Pmenu guibg=#161a1e guifg=#E7EAEE
-hi PmenuMatch guibg=#161a1e guifg=#89BEFF
-hi PmenuMatchSel guibg=#3f4552 guifg=#89BEFF
-hi PmenuSbar guibg=#202428
-hi PmenuSel guibg=#3f4552
+hi Pmenu guibg=#111418 guifg=#E7EAEE
+hi PmenuMatch guibg=#111418 guifg=#89BEFF
+hi PmenuMatchSel guibg=#3d4450 guifg=#89BEFF
+hi PmenuSbar guibg=#1c1f23
+hi PmenuSel guibg=#3d4450
 hi PmenuThumb guibg=#474E5C
 hi PreProc guibg=NONE guifg=#FFB3EC
 hi Question guibg=NONE guifg=#5CCEFF
-hi QuickFixLine gui=bold guibg=#33394a
+hi QuickFixLine gui=bold guibg=#2f3546
 hi Search guibg=#00648F guifg=#E7EAEE
-hi SignColumn guibg=#1D2228 guifg=#474E5C
-hi SignColumnSB guibg=#161a1e guifg=#474E5C
+hi SignColumn guibg=#171B20 guifg=#474E5C
+hi SignColumnSB guibg=#111418 guifg=#474E5C
 hi Sneak guibg=#FFB3EC guifg=#2C313A
-hi SneakScope guibg=#33394a
+hi SneakScope guibg=#2f3546
 hi Special guibg=NONE guifg=#FFA064
 hi SpecialKey guibg=NONE guifg=#545c7e
 hi SpellBad gui=undercurl guibg=NONE guisp=#F73F64
@@ -229,18 +229,18 @@ hi SpellCap gui=undercurl guibg=NONE guisp=#FFE77A
 hi SpellLocal gui=undercurl guibg=NONE guisp=#0AE7FF
 hi SpellRare gui=undercurl guibg=NONE guisp=#41FFDC
 hi Statement guibg=NONE guifg=#B1A2FF
-hi StatusLine guibg=#161a1e guifg=#a9b1d6
-hi StatusLineNC guibg=#161a1e guifg=#474E5C
+hi StatusLine guibg=#111418 guifg=#a9b1d6
+hi StatusLineNC guibg=#111418 guifg=#474E5C
 hi String guibg=NONE guifg=#38FFA5
-hi Substitute guibg=#F97791 guifg=#171b20
-hi TabLine guibg=#161a1e guifg=#474E5C
-hi TabLineFill guibg=#171b20
-hi TabLineSel guibg=#5CCEFF guifg=#171b20
+hi Substitute guibg=#F97791 guifg=#12161a
+hi TabLine guibg=#111418 guifg=#474E5C
+hi TabLineFill guibg=#12161a
+hi TabLineSel guibg=#5CCEFF guifg=#12161a
 hi Title gui=bold guibg=NONE guifg=#5CCEFF
-hi Todo guibg=#5CCEFF guifg=#1D2228
+hi Todo guibg=#5CCEFF guifg=#171B20
 hi Type guibg=NONE guifg=#FFCB77
 hi Underlined gui=underline guibg=NONE
-hi VertSplit guibg=NONE guifg=#171b20
+hi VertSplit guibg=NONE guifg=#12161a
 hi VimwikiHR guibg=NONE guifg=#FFE77A
 hi VimwikiHeader1 gui=bold guibg=NONE guifg=#38FFA5
 hi VimwikiHeader2 gui=bold guibg=NONE guifg=#5CCEFF
@@ -255,22 +255,22 @@ hi VimwikiLink guibg=NONE guifg=#5CCEFF
 hi VimwikiList guibg=NONE guifg=#FFA064
 hi VimwikiMarkers guibg=NONE guifg=#5CCEFF
 hi VimwikiTag guibg=NONE guifg=#38FFA5
-hi Visual guibg=#33394a
-hi VisualNOS guibg=#33394a
+hi Visual guibg=#2f3546
+hi VisualNOS guibg=#2f3546
 hi WarningMsg guibg=NONE guifg=#FFE77A
 hi Whitespace guibg=NONE guifg=#474E5C
-hi WildMenu guibg=#33394a
-hi WinSeparator gui=bold guibg=NONE guifg=#171b20
-hi debugBreakpoint guibg=#1b363e guifg=#0AE7FF
-hi debugPC guibg=#161a1e
-hi diffAdded guibg=#2e474b guifg=#1BB16E
-hi diffChanged guibg=#1e252e guifg=#2AA9DF
+hi WildMenu guibg=#2f3546
+hi WinSeparator gui=bold guibg=NONE guifg=#12161a
+hi debugBreakpoint guibg=#162f36 guifg=#0AE7FF
+hi debugPC guibg=#111418
+hi diffAdded guibg=#294145 guifg=#1BB16E
+hi diffChanged guibg=#181f27 guifg=#2AA9DF
 hi diffFile guibg=NONE guifg=#5CCEFF
 hi diffIndexLine guibg=NONE guifg=#B1A2FF
 hi diffLine guibg=NONE guifg=#586172
-hi diffNewFile guibg=#2e474b guifg=#89BEFF
-hi diffOldFile guibg=#542937 guifg=#89BEFF
-hi diffRemoved guibg=#542937 guifg=#EE4B6B
+hi diffNewFile guibg=#294145 guifg=#89BEFF
+hi diffOldFile guibg=#4f2431 guifg=#89BEFF
+hi diffRemoved guibg=#4f2431 guifg=#EE4B6B
 hi healthError guibg=NONE guifg=#F73F64
 hi healthSuccess guibg=NONE guifg=#38FFA5
 hi healthWarning guibg=NONE guifg=#FFE77A
@@ -278,9 +278,9 @@ hi helpCommand guibg=#414868 guifg=#5CCEFF
 hi helpExample guibg=NONE guifg=#586172
 hi htmlH1 gui=bold guibg=NONE guifg=#B1A2FF
 hi htmlH2 gui=bold guibg=NONE guifg=#5CCEFF
-hi illuminatedCurWord guibg=#3a414c
-hi illuminatedWord guibg=#3a414c
-hi lCursor guibg=#E7EAEE guifg=#1D2228
+hi illuminatedCurWord guibg=#393f4a
+hi illuminatedWord guibg=#393f4a
+hi lCursor guibg=#E7EAEE guifg=#171B20
 hi qfFileName guibg=NONE guifg=#5CCEFF
 hi qfLineNr guibg=NONE guifg=#B9B8D3
 hi! link CurSearch IncSearch

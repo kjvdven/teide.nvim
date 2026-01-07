@@ -2,7 +2,7 @@ style:
   name: teide_darker
   body:
     fgColor: '#E7EAEE'
-    bgColor: '#161a1e'
+    bgColor: '#111418'
     secondaryTextColor: '#a9b1d6'
     tertiaryTextColor: '${fg_visual}'
     borderColor: '#474E5C'
@@ -24,13 +24,13 @@ style:
     categoryFgColor: '#AFDBFD'
   dialog:
     fgColor: '#89BEFF'
-    bgColor: '#171b20'
-    contrastBgColor: '#1D2228'
+    bgColor: '#12161a'
+    contrastBgColor: '#171B20'
     attentionBgColor: '#F73F64'
-    buttonFgColor: '#171b20'
+    buttonFgColor: '#12161a'
     buttonBgColor: '#2C313A'
-    buttonFocusFgColor: '#171b20'
+    buttonFocusFgColor: '#12161a'
     buttonFocusBgColor: '#5CCEFF'
     labelFgColor: '#FFE77A'
-    fieldFgColor: '#171b20'
+    fieldFgColor: '#12161a'
     fieldBgColor: '#254365'

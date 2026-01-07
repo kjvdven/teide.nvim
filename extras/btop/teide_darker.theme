@@ -1,7 +1,7 @@
 # Theme: teide_darker
 # By: Folke Lemaitre & Sergio Hernandez
 
-theme[main_bg]="#1D2228"
+theme[main_bg]="#171B20"
 theme[main_fg]="#E7EAEE"
 
 # Title color for boxes
@@ -18,19 +18,19 @@ theme[selected_fg]="#0AE7FF"
 theme[proc_misc]="#0AE7FF"
 
 # Cpu box outline color
-theme[cpu_box]="#739fd4"
+theme[cpu_box]="#729dd2"
 
 # Memory/disks box outline color
-theme[mem_box]="#739fd4"
+theme[mem_box]="#729dd2"
 
 # Net up/down box outline color
-theme[net_box]="#739fd4"
+theme[net_box]="#729dd2"
 
 # Processes box outline color
-theme[proc_box]="#739fd4"
+theme[proc_box]="#729dd2"
 
 # Box divider line and small boxes line color
-theme[div_line]="#739fd4"
+theme[div_line]="#729dd2"
 
 # Temperature graph colors
 theme[temp_start]="#38FFA5"

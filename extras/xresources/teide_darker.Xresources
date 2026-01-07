@@ -1,9 +1,9 @@
 ! Teide colors for Xresources
 
-*background: #1D2228
+*background: #171B20
 *foreground: #E7EAEE
 
-*color0: #171b20
+*color0: #12161a
 *color1: #F97791
 *color2: #38FFA5
 *color3: #FFE77A

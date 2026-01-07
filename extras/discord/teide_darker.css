@@ -10,22 +10,22 @@
   --text-warning: #FFE77A;
   --text-danger: #F97791;
   --text-brand: #5CCEFF;
-  --background-primary: #1D2228;
-  --bg-base-primary: #1D2228;
-  --background-secondary: #161a1e;
-  --background-secondary-alt: #161a1e;
+  --background-primary: #171B20;
+  --bg-base-primary: #171B20;
+  --background-secondary: #111418;
+  --background-secondary-alt: #111418;
   --background-tertiary: ${bg_dark1};
   --background-accent: #00648F;
-  --background-floating: #13161a;
-  --background-nested-floating: #161a1e;
-  --background-mobile-primary: #1D2228;
-  --background-mobile-secondary: #161a1e;
-  --bg-base-secondary: #161a1e;
-  --bg-surface-raised: #161a1e;
-  --home-background: #1D2228;
-  --chat-background: #1D2228;
+  --background-floating: #0f1215;
+  --background-nested-floating: #111418;
+  --background-mobile-primary: #171B20;
+  --background-mobile-secondary: #111418;
+  --bg-base-secondary: #111418;
+  --bg-surface-raised: #111418;
+  --home-background: #171B20;
+  --chat-background: #171B20;
   --chat-border: #2C313A;
-  --chat-input-container-background: #1D2228;
+  --chat-input-container-background: #171B20;
   --background-modifier-hover: #545c7e26;
   --background-modifier-selected: #545c7e32;
   --background-modifier-accent: #545c7e42;
@@ -45,17 +45,17 @@
   --info-help-foreground: #0AE7FF;
   --info-help-text: #E7EAEE;
   --status-positive-background: #41FFDC;
-  --status-positive-text: #1D2228;
+  --status-positive-text: #171B20;
   --status-warning-background: #FFE77A;
-  --status-warning-text: #1D2228;
+  --status-warning-text: #171B20;
   --status-danger-background: #F97791;
-  --status-danger-text: #1D2228;
+  --status-danger-text: #171B20;
   --status-danger: #F97791;
   --status-positive: #41FFDC;
   --status-warning: #FFE77A;
   --status-yellow-400: #FFE77A;
   --status-green-600: #41FFDC;
-  --primary-dark-600: #1D2228;
+  --primary-dark-600: #171B20;
   --status-yellow-560: #FFE77A;
   --status-red-500: #F97791;
   --status-red-530: #F97791;
@@ -99,39 +99,39 @@
   --button-outline-danger-border: #F73F64;
   --button-outline-danger-background: transparent;
   --button-outline-danger-background-hover: #F97791;
-  --button-outline-danger-text-hover: #1D2228;
+  --button-outline-danger-text-hover: #171B20;
   --button-outline-danger-border-hover: #F97791;
   --button-outline-danger-background-active: #F73F64;
-  --button-outline-danger-text-active: #1D2228;
+  --button-outline-danger-text-active: #171B20;
   --button-outline-danger-border-active: #F73F64;
   --button-outline-positive-text: #E7EAEE;
   --button-outline-positive-border: #41FFDC;
   --button-outline-positive-background: transparent;
   --button-outline-positive-background-hover: #38FFA5;
-  --button-outline-positive-text-hover: #1D2228;
+  --button-outline-positive-text-hover: #171B20;
   --button-outline-positive-border-hover: #38FFA5;
   --button-outline-positive-background-active: #8FEBD3;
-  --button-outline-positive-text-active: #1D2228;
+  --button-outline-positive-text-active: #171B20;
   --button-outline-positive-border-active: #38FFA5;
   --button-outline-brand-text: #E7EAEE;
   --button-outline-brand-border: #5CCEFF;
   --button-outline-brand-background: transparent;
   --button-outline-brand-background-hover: #89BEFF;
-  --button-outline-brand-text-hover: #1D2228;
+  --button-outline-brand-text-hover: #171B20;
   --button-outline-brand-border-hover: #89BEFF;
   --button-outline-brand-background-active: #5CCEFF;
-  --button-outline-brand-text-active: #1D2228;
+  --button-outline-brand-text-active: #171B20;
   --button-outline-brand-border-active: #89BEFF;
   --button-outline-primary-text: #E7EAEE;
   --button-outline-primary-border: #545c7e;
   --button-outline-primary-background: transparent;
   --button-outline-primary-background-hover: #545c7e;
-  --button-outline-primary-text-hover: #1D2228;
+  --button-outline-primary-text-hover: #171B20;
   --button-outline-primary-border-hover: #545c7e;
   --button-outline-primary-background-active: #545c7e;
-  --button-outline-primary-text-active: #1D2228;
+  --button-outline-primary-text-active: #171B20;
   --button-outline-primary-border-active: #545c7e;
-  --modal-background: #1D2228;
+  --modal-background: #171B20;
   --modal-footer-background: #2C313A;
   --scrollbar-thin-thumb: #5CCEFF;
   --scrollbar-thin-track: transparent;
@@ -148,7 +148,7 @@
   --mention-background: #414868;
   --background-mentioned: #FFE77A19;
   --background-mentioned-hover: #FFE77A14;
-  --background-message-hover: #161a1e3F;
+  --background-message-hover: #1114183F;
   --background-message-automod: #FFB3EC0C;
   --background-message-automod-hover: #FFB3EC19;
   --background-message-highlight: #5CCEFF14;
@@ -156,14 +156,14 @@
   --channels-default: #a9b1d6;
   --channel-icon: #5CCEFF99;
   --channel-text-area-placeholder: #545c7e7F;
-  --channeltextarea-background: #161a1e;
+  --channeltextarea-background: #111418;
   --activity-card-background: #2C313A;
   --textbox-markdown-syntax: #E7EAEE;
   --spoiler-revealed-background: #2C313A;
   --spoiler-hidden-background: #586172;
   --android-navigation-bar-background: #2C313A;
-  --android-ripple: #171b204C;
-  --bg-mod-faint: #161a1e;
+  --android-ripple: #12161a4C;
+  --bg-mod-faint: #111418;
   --bg-mod-subtle: #414868;
   --focus-primary: #5CCEFF;
   --interactive-normal: #E7EAEE;
@@ -176,12 +176,12 @@
 }
 
 div[class*="autocomplete_"] {
-    background-color: #13161a !important;
+    background-color: #0f1215 !important;
 }
 
 div[class*="autocomplete_"]
 div[class*="categoryHeader"] {
-    background-color: #13161a !important;
+    background-color: #0f1215 !important;
 }
 
 rect[mask="url(#svg-mask-status-online)"] {

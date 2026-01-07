@@ -11,8 +11,8 @@ fish_color_option FFB3EC
 fish_color_error F97791
 fish_color_param F7D96C
 fish_color_comment 586172
-fish_color_selection --background=33394a
-fish_color_search_match --background=33394a
+fish_color_selection --background=373d4f
+fish_color_search_match --background=373d4f
 fish_color_operator 38FFA5
 fish_color_escape FFB3EC
 fish_color_autosuggestion 586172
@@ -22,4 +22,4 @@ fish_pager_color_progress 586172
 fish_pager_color_prefix 0AE7FF
 fish_pager_color_completion E7EAEE
 fish_pager_color_description 586172
-fish_pager_color_selected_background --background=33394a
+fish_pager_color_selected_background --background=373d4f
