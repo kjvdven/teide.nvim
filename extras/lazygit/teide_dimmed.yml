@@ -5,14 +5,14 @@ gui:
       - "#FFA064"
       - "bold"
     inactiveBorderColor:
-      - "#739fd4"
+      - "#75a0d6"
     searchingActiveBorderColor:
       - "#FFA064"
       - "bold"
     optionsTextColor:
       - "#5CCEFF"
     selectedLineBgColor:
-      - "#33394a"
+      - "#373d4f"
     cherryPickedCommitFgColor:
       - "#5CCEFF"
     cherryPickedCommitBgColor:

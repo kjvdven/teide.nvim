@@ -9,7 +9,7 @@ function M.generate(colors)
 system: "base24"
 name: "Teide"
 author: "Sergio Hernandez"
-variant: "${_name}"
+variant: "${_style}"
 palette:
   base00: ${bg}
   base01: ${bg_popup}

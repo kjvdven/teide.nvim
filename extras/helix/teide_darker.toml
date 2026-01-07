@@ -14,10 +14,10 @@ constructor = { fg = "#ffcb77" }
 "diagnostic.hint" = { underline = { style = "curl" } }
 "diagnostic.info" = { underline = { style = "curl" } }
 "diagnostic.warning" = { underline = { style = "curl" } }
-"diff.delta" = { bg = "#1e252e", fg = "#2aa9df" }
+"diff.delta" = { bg = "#181f27", fg = "#2aa9df" }
 "diff.delta.moved" = { fg = "#5cceff" }
-"diff.minus" = { bg = "#542937", fg = "#ee4b6b" }
-"diff.plus" = { bg = "#2e474b", fg = "#1bb16e" }
+"diff.minus" = { bg = "#4f2431", fg = "#ee4b6b" }
+"diff.plus" = { bg = "#294145", fg = "#1bb16e" }
 error = { fg = "#f73f64" }
 function = { fg = "#5cceff" }
 "function.builtin" = { fg = "#5cceff" }
@@ -38,8 +38,8 @@ keyword = { fg = "#f97791", modifiers = ["italic"] }
 label = { fg = "#5cceff" }
 "markup.bold" = { fg = "#e7eaee", modifiers = ["bold"] }
 "markup.heading" = { fg = "#5cceff", modifiers = ["bold"] }
-"markup.heading.completion" = { bg = "#161a1e", fg = "#e7eaee" }
-"markup.heading.hover" = { bg = "#3f4552" }
+"markup.heading.completion" = { bg = "#111418", fg = "#e7eaee" }
+"markup.heading.hover" = { bg = "#3d4450" }
 "markup.italic" = { fg = "#e7eaee", modifiers = ["italic"] }
 "markup.link" = { fg = "#41ffdc" }
 "markup.link.label" = { fg = "#ffa064" }
@@ -64,24 +64,24 @@ type = { fg = "#ffcb77" }
 "type.enum.variant" = { fg = "#8febd3" }
 "ui.background" = { bg = "bg" }
 "ui.bufferline.active" = { bg = "bg_visual", fg = "fg" }
-"ui.cursor" = { bg = "#e7eaee", fg = "#1d2228" }
+"ui.cursor" = { bg = "#e7eaee", fg = "#171b20" }
 "ui.cursor.match" = { fg = "#ff924e", modifiers = ["bold"] }
 "ui.linenr" = { fg = "#474e5c" }
 "ui.linenr.select" = { fg = "#ff924e", modifiers = ["bold"] }
-"ui.menu" = { bg = "#161a1e", fg = "#e7eaee" }
-"ui.menu.scroll" = { bg = 2106408, fg = 4673116 }
-"ui.menu.selected" = { bg = "#3f4552" }
-"ui.popup" = { bg = "#13161a", fg = "#739fd4" }
+"ui.menu" = { bg = "#111418", fg = "#e7eaee" }
+"ui.menu.scroll" = { bg = 1842979, fg = 4673116 }
+"ui.menu.selected" = { bg = "#3d4450" }
+"ui.popup" = { bg = "#0f1215", fg = "#729dd2" }
 "ui.selection" = { bg = "bg_highlight" }
-"ui.statusline" = { bg = "#161a1e", fg = "#a9b1d6" }
-"ui.statusline.inactive" = { bg = "#161a1e", fg = "#474e5c" }
+"ui.statusline" = { bg = "#111418", fg = "#a9b1d6" }
+"ui.statusline.inactive" = { bg = "#111418", fg = "#474e5c" }
 "ui.statusline.normal" = { bg = "blue", fg = "black" }
-"ui.text" = { bg = "#1d2228", fg = "#e7eaee" }
-"ui.text.focus" = { bg = "#33394a" }
+"ui.text" = { bg = "#171b20", fg = "#e7eaee" }
+"ui.text.focus" = { bg = "#2f3546" }
 "ui.text.inactive" = { fg = "#586172", modifiers = ["italic"] }
-"ui.text.info" = { bg = "#13161a", fg = "#e7eaee" }
-"ui.virtual.inlay-hint" = { bg = "#21383a", fg = "#41ffdc" }
-"ui.window" = { fg = "#171b20", modifiers = ["bold"] }
+"ui.text.info" = { bg = "#0f1215", fg = "#e7eaee" }
+"ui.virtual.inlay-hint" = { bg = "#1b3233", fg = "#41ffdc" }
+"ui.window" = { fg = "#12161a", modifiers = ["bold"] }
 variable = { fg = "#e7eaee" }
 "variable.builtin" = { fg = "#41ffdc" }
 "variable.other.member" = { fg = "#bfc7d1" }
@@ -89,18 +89,18 @@ variable = { fg = "#e7eaee" }
 warning = { fg = "#ffe77a" }
 
 [palette]
-bg = "#1D2228"
-bg_dark = "#161a1e"
-bg_darker = "#13161a"
-bg_dimmed = "#191d22"
-bg_float = "#13161a"
+bg = "#171B20"
+bg_dark = "#111418"
+bg_darker = "#0f1215"
+bg_dimmed = "#14171b"
+bg_float = "#0f1215"
 bg_highlight = "#2C313A"
-bg_popup = "#161a1e"
+bg_popup = "#111418"
 bg_search = "#00648F"
-bg_sidebar = "#161a1e"
-bg_statusline = "#161a1e"
-bg_visual = "#33394a"
-black = "#171b20"
+bg_sidebar = "#111418"
+bg_statusline = "#111418"
+bg_visual = "#2f3546"
+black = "#12161a"
 blue = "#5CCEFF"
 blue0 = "#00648F"
 blue1 = "#89BEFF"
@@ -108,8 +108,8 @@ blue2 = "#9DA9E7"
 blue5 = "#AFDBFD"
 blue6 = "#AFDBFD"
 blue7 = "#254365"
-border = "#171b20"
-border_highlight = "#739fd4"
+border = "#12161a"
+border_highlight = "#729dd2"
 comment = "#586172"
 cyan = "#0AE7FF"
 cyan2 = "#00FBFF"
@@ -117,9 +117,9 @@ dark3 = "#545c7e"
 dark5 = "#B9B8D3"
 dark6 = "#8E98A8"
 dark7 = "#BFC7D1"
-"diff.add" = "#2e474b"
-"diff.change" = "#1e252e"
-"diff.delete" = "#542937"
+"diff.add" = "#294145"
+"diff.change" = "#181f27"
+"diff.delete" = "#4f2431"
 "diff.text" = "#254365"
 error = "#F73F64"
 fg = "#E7EAEE"
@@ -154,7 +154,7 @@ rainbow = "#38FFA5"
 red = "#F97791"
 red1 = "#F73F64"
 teal = "#41FFDC"
-"terminal.black" = "#171b20"
+"terminal.black" = "#12161a"
 "terminal.black_bright" = "#414868"
 "terminal.blue" = "#5CCEFF"
 "terminal.blue_bright" = "#89BEFF"

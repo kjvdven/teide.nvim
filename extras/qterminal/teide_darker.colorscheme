@@ -2,10 +2,10 @@
 Description=Teide Darker
 
 [Background]
-Color=29,34,40
+Color=23,27,32
 
 [BackgroundIntense]
-Color=29,34,40
+Color=23,27,32
 
 [Foreground]
 Color=231,234,238
@@ -14,7 +14,7 @@ Color=231,234,238
 Color=231,234,238
 
 [Color0]
-Color=23,27,32
+Color=18,22,26
 
 [Color1]
 Color=249,119,145

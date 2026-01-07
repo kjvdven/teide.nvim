@@ -2,9 +2,9 @@
   "name": "Teide Dimmed",
   "version": 1,
   "shared": {
-    "backgroundColor": "#1D2228",
+    "backgroundColor": "#232930",
     "colorPaletteOverrides": [
-      "#171b20",
+      "#1c2126",
       "#F97791",
       "#38FFA5",
       "#FFCB77",

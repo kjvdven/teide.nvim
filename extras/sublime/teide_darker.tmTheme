@@ -17,7 +17,7 @@
 				<key>activeGuide</key>
 				<string>#363b54</string>
 				<key>background</key>
-				<string>#1D2228</string>
+				<string>#171B20</string>
 				<key>caret</key>
 				<string>#DBC08A</string>
 				<key>findHighlight</key>
@@ -139,7 +139,7 @@
 				<key>foreground</key>
 				<string>#0AE7FF</string>
 				<key>background</key>
-				<string>#1b363e</string>
+				<string>#162f36</string>
 			</dict>
 		</dict>
 		<dict>
@@ -152,7 +152,7 @@
 				<key>foreground</key>
 				<string>#FFE77A</string>
 				<key>background</key>
-				<string>#343630</string>
+				<string>#2e2f29</string>
 			</dict>
 		</dict>
 		<dict>
@@ -165,7 +165,7 @@
 				<key>foreground</key>
 				<string>#F73F64</string>
 				<key>background</key>
-				<string>#33252e</string>
+				<string>#2d1f27</string>
 			</dict>
 		</dict>
 		<dict>

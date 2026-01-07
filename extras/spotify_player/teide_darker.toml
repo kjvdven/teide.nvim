@@ -1,7 +1,7 @@
 [[themes]]
 name = "Teide Darker"
 [themes.palette]
-background = "#161a1e"
+background = "#111418"
 foreground = "#a9b1d6"
 black = "#414868"
 red = "#F97791"
@@ -11,7 +11,7 @@ blue = "#5CCEFF"
 magenta = "#FFB3EC"
 cyan = "#0AE7FF"
 white = "#a9b1d6"
-bright_black = "#1D2228"
+bright_black = "#171B20"
 bright_red = "#F73F64"
 bright_green = "#8FEBD3"
 bright_yellow = "#FFA064"

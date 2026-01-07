@@ -5,7 +5,7 @@ assistant-output-color: "#E7EAEE"
 # code-theme: teide-darker
 
 completion-menu-color: "#E7EAEE"
-completion-menu-bg-color: "#13161a"
+completion-menu-bg-color: "#0f1215"
 completion-menu-current-color: "#E7EAEE"
 completion-menu-current-bg-color: "#2C313A"
 

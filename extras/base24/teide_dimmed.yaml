@@ -1,11 +1,11 @@
 system: "base24"
 name: "Teide"
 author: "Sergio Hernandez"
-variant: "teide_dimmed"
+variant: "dimmed"
 palette:
-  base00: #1D2228
-  base01: #161a1e
-  base02: #33394a
+  base00: #232930
+  base01: #1a1f24
+  base02: #373d4f
   base03: #586172
   base04: #919BCA
   base05: #E7EAEE
@@ -19,8 +19,8 @@ palette:
   base0D: #9DA9E7
   base0E: #FFB3EC
   base0F: #F73F64
-  base10: #161a1e
-  base11: #13161a
+  base10: #1a1f24
+  base11: #171b1f
   base12: #F97791
   base13: #FFE77A
   base14: #41FFDC

@@ -1,7 +1,7 @@
 local Util = require("teide.util")
 
 local bg = "#1D2228"
-local colors = require("teide.colors.darker")
+local colors = vim.deepcopy(require("teide.colors.darker"))
 
 colors.bg = bg
 colors.bg_dark = Util.blend(bg, 0.75, "#000000")

@@ -1,7 +1,7 @@
 system: "base24"
 name: "Teide"
 author: "Sergio Hernandez"
-variant: "teide_light"
+variant: "light"
 palette:
   base00: #d4dbe4
   base01: #e1e6eb
