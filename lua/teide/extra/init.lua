@@ -50,6 +50,7 @@ M.extras = {
   vimium           = { ext = "css", url = "https://vimium.github.io/", label = "Vimium" },
   vivaldi          = { ext = "json", url = "https://vivaldi.com", label = "Vivaldi" },
   zathura          = { ext = "zathurarc", url = "https://pwmt.org/projects/zathura/", label = "Zathura" },
+  zed              = { ext = "json", url = "https://zed.dev/docs/themes", label = "Zed" },
   zellij           = { ext = "kdl", url = "https://zellij.dev/", label = "Zellij" },
 }
 
@@ -75,6 +76,7 @@ function M.setup()
     local plugin = require("teide.extra." .. extra)
     for style, style_name in pairs(styles) do
       local colors, groups, opts = teide.load({ style = style, plugins = { all = true } })
+      print("Style: " .. style .. " BG: " .. colors.bg)
       local fname = extra
         .. (info.subdir and "/" .. info.subdir .. "/" or "")
         .. "/teide"
